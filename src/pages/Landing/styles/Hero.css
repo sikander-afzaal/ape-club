@@ -1,0 +1,57 @@
+.landing-hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  background: url("/public/assets/hero.png") repeat 0 0;
+  gap: 30px;
+  background-position: 0 0;
+  animation: animate 35s linear infinite;
+}
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: calc(100% - 100vw) 0;
+  }
+}
+.nft {
+  max-width: 400px;
+  width: 100%;
+}
+.landing-hero h1 {
+  text-shadow: 2px 2px 0 #363636, -2px -2px 0 #363636, 2px -2px 0 #363636,
+    -2px 2px 0 #363636, 5px 5px 0 #363636;
+  color: #fff;
+  -webkit-text-stroke: 1px black;
+  font-size: 75px;
+}
+.landing-hero p {
+  color: #363636;
+  font-size: 1.875rem;
+}
+.buy {
+  border: 2px solid #495fa8;
+  border-radius: 100vh;
+  background-color: #495fa8;
+  height: 44px;
+  width: 158px;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+}
+.buy:hover {
+  background-color: rgb(147 197 253);
+}
+@media screen and (max-width: 555px) {
+  .landing-hero h1 {
+    font-size: 50px;
+  }
+  .landing-hero p {
+    font-size: 18px;
+  }
+}

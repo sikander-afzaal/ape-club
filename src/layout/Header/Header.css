@@ -1,0 +1,82 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  padding-inline: 20px;
+  height: 68px;
+  width: 100%;
+}
+.logo {
+  color: #fff;
+  font-size: 1.875rem;
+  -webkit-text-stroke: 1px black;
+  cursor: pointer;
+}
+header nav,
+.social-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav a {
+  color: #363636;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+}
+.social-div svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #363636;
+}
+.connect {
+  border: 2px solid #363636;
+  border-radius: 100vh;
+  color: #363636;
+  font-size: 18px;
+  background-color: transparent;
+  width: 200px;
+  height: 44px;
+  cursor: pointer;
+}
+.connect:hover {
+  background-color: rgb(147 197 253);
+}
+.header-toggle {
+  display: none;
+}
+@media screen and (max-width: 823px) {
+  .header-toggle {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    right: -600px;
+    transition: all 0.8s ease-in-out;
+    width: 350px;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 8rem 2rem;
+    border-left: 1px solid #363636;
+    gap: 40px;
+    z-index: 100;
+  }
+  nav .header-toggle {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+  }
+  header .open-header {
+    right: 0;
+  }
+}
