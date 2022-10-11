@@ -3,6 +3,7 @@
   position: relative;
   z-index: 2;
   pointer-events: none;
+  width: 100%;
 }
 .about > img {
   width: 100%;
