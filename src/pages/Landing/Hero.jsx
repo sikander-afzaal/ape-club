@@ -15,6 +15,7 @@ const Hero = () => {
           perPage: 4,
           gap: "2rem",
           width: "100%",
+          focus: "center",
           arrows: true,
           pagination: false,
           perMove: 1,
@@ -45,6 +46,7 @@ const Hero = () => {
           <img src="/assets/nft.png" alt="" className="nft" />
         </SplideSlide>
       </Splide>
+      {/* <img src="/assets/wave.svg" alt="" className="wave" /> */}
     </div>
   );
 };

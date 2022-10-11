@@ -1,3 +1,4 @@
+import "./styles/Landing.css";
 import Hero from "./Hero";
 
 const Landing = () => {

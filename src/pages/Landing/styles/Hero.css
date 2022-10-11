@@ -9,7 +9,9 @@
   background: url("/public/assets/hero.png") repeat 0 0;
   gap: 30px;
   background-position: 0 0;
-  animation: animate 35s linear infinite;
+  animation: animate 65s linear infinite;
+  position: relative;
+  isolation: isolate;
 }
 @keyframes animate {
   from {
@@ -35,18 +37,43 @@
   font-size: 1.875rem;
 }
 .buy {
-  border: 2px solid #495fa8;
+  border: 2px solid rgb(147 197 253);
   border-radius: 100vh;
-  background-color: #495fa8;
+  color: #363636;
+  font-size: 18px;
+  background-color: transparent;
+  width: 200px;
   height: 44px;
-  width: 158px;
-  font-size: 17px;
-  color: white;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 .buy:hover {
   background-color: rgb(147 197 253);
+  color: white;
 }
+.landing-hero .splide {
+  margin-top: 50px;
+}
+.landing-hero .splide__arrow {
+  width: 3rem;
+  background-color: rgb(147 197 253);
+  height: 3rem;
+  z-index: 8;
+}
+.landing-hero .splide__arrow svg {
+  fill: white;
+  font-size: 20px;
+}
+.landing-hero .splide__slide {
+  transform: none;
+  opacity: 0.4;
+  transition: all 0.3s ease-in-out;
+}
+.landing-hero .is-active {
+  opacity: 1;
+  /* transform: translateY(-40px); */
+}
+
 @media screen and (max-width: 555px) {
   .landing-hero h1 {
     font-size: 50px;

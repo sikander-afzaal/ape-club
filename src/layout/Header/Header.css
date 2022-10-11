@@ -33,7 +33,7 @@ nav a {
   color: #363636;
 }
 .connect {
-  border: 2px solid #363636;
+  border: 2px solid rgb(147 197 253);
   border-radius: 100vh;
   color: #363636;
   font-size: 18px;
@@ -41,9 +41,11 @@ nav a {
   width: 200px;
   height: 44px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 .connect:hover {
   background-color: rgb(147 197 253);
+  color: white;
 }
 .header-toggle {
   display: none;
