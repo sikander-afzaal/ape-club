@@ -51,6 +51,9 @@
   color: #363636;
   font-weight: 400;
 }
+.left-about-row button {
+  margin-bottom: 40px;
+}
 .left-about-row p {
   color: #363636;
   line-height: 1.7;
