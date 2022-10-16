@@ -1,1 +1,46 @@
-
+.relative {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 6;
+  flex-direction: column;
+}
+.gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  z-index: 8;
+  flex-direction: column;
+  background-image: url("/public/assets/gif.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 16px solid #eadc63;
+  height: 384px;
+  gap: 40px;
+  transform: translateY(-50%);
+}
+.gif h1 {
+  color: #fff;
+  -webkit-text-stroke: 2px black;
+  font-size: 3rem;
+  line-height: 1;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #363636, -2px -2px 0 #363636, 2px -2px 0 #363636,
+    -2px 2px 0 #363636, 5px 5px 0 #363636;
+}
+.gif button {
+  color: white;
+}
+@media screen and (max-width: 925px) {
+  .gif {
+    transform: none;
+    width: 100%;
+  }
+  .gif h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
