@@ -1,0 +1,28 @@
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 100px 20px;
+  max-width: 1152px;
+  gap: 40px;
+}
+.faq h1 {
+  line-height: 1;
+  font-size: 45px;
+  color: #363636;
+  font-weight: 400;
+}
+.faqs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+@media screen and (max-width: 500px) {
+  .faq {
+    padding: 50px 20px;
+  }
+}

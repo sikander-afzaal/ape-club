@@ -4,6 +4,7 @@ import About from "./About";
 import Verse from "./Verse";
 import Roadmap from "./Roadmap";
 import Team from "./Team";
+import Faq from "./Faq";
 
 const Landing = () => {
   return (
@@ -20,6 +21,7 @@ const Landing = () => {
           <Roadmap />
           <Team />
         </div>
+        <Faq />
       </div>
     </div>
   );

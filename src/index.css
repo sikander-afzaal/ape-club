@@ -25,3 +25,6 @@
   position: fixed;
   z-index: 66;
 }
+body {
+  background-color: #f4f4f4;
+}
