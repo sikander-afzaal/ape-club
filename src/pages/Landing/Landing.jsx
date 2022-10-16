@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Verse from "./Verse";
 import Roadmap from "./Roadmap";
+import Team from "./Team";
 
 const Landing = () => {
   return (
@@ -15,7 +16,10 @@ const Landing = () => {
           <h1 className="titan">Play the jungle game</h1>
           <button className="connect">Coming Soon</button>
         </div>
-        <Roadmap />
+        <div className="roadmap">
+          <Roadmap />
+          <Team />
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,43 @@
+.team-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 291px;
+  flex-direction: column;
+}
+.team-box img {
+  border: 12px solid #eadc63;
+  border-radius: 50%;
+  max-width: 100%;
+  object-fit: contain;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.team-box h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+}
+.team-box h3 {
+  font-size: 12px;
+  color: white;
+  margin-bottom: 10px;
+}
+.team-box p {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  margin-bottom: 10px;
+}
+.team-box svg {
+  color: #9dd7ef;
+}
+@media screen and (max-width: 700px) {
+  .team-box {
+    width: 246px;
+  }
+  .team-box img {
+    max-width: 80%;
+  }
+}

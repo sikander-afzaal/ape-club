@@ -1,0 +1,21 @@
+.team {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1536px;
+  width: 100%;
+  flex-direction: column;
+  gap: 40px;
+}
+.team h1 {
+  text-align: center;
+}
+.team-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}

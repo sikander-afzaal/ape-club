@@ -2,7 +2,7 @@ import "./styles/Roadmap.css";
 
 const Roadmap = () => {
   return (
-    <div className="roadmap">
+    <>
       <h1 className="titan">Roadmap</h1>
       <div className="roadmap-grid">
         <img src="/assets/monkey-space.png" alt="" className="space-monkey" />
@@ -78,7 +78,7 @@ const Roadmap = () => {
         <p>Phase One: The Resurrection</p>
         <p> Collaborations with various projects in the NFT Space</p>
       </div>
-    </div>
+    </>
   );
 };
 
