@@ -21,6 +21,54 @@
   width: 100%;
   flex-direction: column;
 }
+.banana-wrapper {
+  position: absolute;
+  bottom: -180px;
+  right: 8%;
+  animation: springIn 5s linear infinite none;
+  pointer-events: none;
+}
+.banana {
+  height: 50px;
+  width: 50px;
+  animation: rotating 1s linear infinite;
+  pointer-events: none;
+}
+@keyframes springIn {
+  0%,
+  50% {
+    transform: translateY(0);
+    -webkit-animation-timing-function: cubic-bezier(
+      0.33333,
+      0.66667,
+      0.66667,
+      1
+    );
+    animation-timing-function: cubic-bezier(0.33333, 0.66667, 0.66667, 1);
+  }
+  69.0983% {
+    transform: translateY(-350px);
+    -webkit-animation-timing-function: cubic-bezier(
+      0.33333,
+      0,
+      0.66667,
+      0.33333
+    );
+    animation-timing-function: cubic-bezier(0.33333, 0, 0.66667, 0.33333);
+  }
+  90%,
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes rotating {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media screen and (max-width: 500px) {
   .faq {
     padding: 50px 20px;

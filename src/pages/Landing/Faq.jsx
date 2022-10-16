@@ -1,5 +1,5 @@
-import FaqTab from "../../components/FaqTab/FaqTab";
 import "./styles/Faq.css";
+import FaqTab from "../../components/FaqTab/FaqTab";
 
 const Faq = () => {
   const FAQS = [
@@ -51,6 +51,9 @@ const Faq = () => {
         {FAQS.map((elem, idx) => {
           return <FaqTab {...elem} key={idx + "faq-tab"} />;
         })}
+      </div>
+      <div className="banana-wrapper">
+        <img src="/assets/banana.png" alt="" className="banana" />
       </div>
     </div>
   );

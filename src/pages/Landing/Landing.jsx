@@ -21,6 +21,8 @@ const Landing = () => {
           <Roadmap />
           <Team />
         </div>
+      </div>
+      <div className="main-container">
         <Faq />
       </div>
     </div>
