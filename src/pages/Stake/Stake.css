@@ -1,0 +1,71 @@
+.stake {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1400px;
+  padding: 70px 20px;
+  width: 100%;
+  min-height: 100vh;
+}
+.stake h1 {
+  line-height: 1;
+  font-size: 45px;
+  color: #363636;
+  font-weight: 400;
+}
+.stake-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 40px;
+  margin-top: 40px;
+  width: 100%;
+}
+.stake-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-inline: 10px;
+  width: 100%;
+  background-color: rgb(73, 95, 168);
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.top-stake-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.stake-box img {
+  width: 220px;
+}
+.top-stake-box h2 {
+  color: white;
+  font-size: 20px;
+}
+.top-stake-box .enter {
+  background-color: white;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+}
+@media screen and (max-width: 873px) {
+  .stake-row {
+    grid-template-columns: 1fr;
+  }
+  .stake-box {
+    max-width: none;
+  }
+  .top-stake-box h2 {
+    font-size: 16px;
+  }
+}

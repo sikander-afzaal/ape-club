@@ -7,6 +7,7 @@ import {
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -17,14 +18,18 @@ const Header = () => {
         <div onClick={() => setHeader(false)} className="overlay"></div>
       )}
       <header>
-        <h1 className="logo titan">COOL APE CLUB</h1>
+        <Link to={"/"} className="logo titan">
+          COOL APE CLUB
+        </Link>
         <nav className={`${header ? "open-header" : ""}`}>
           <FontAwesomeIcon
             icon={faXmark}
             onClick={() => setHeader(false)}
             className="header-toggle"
           />
-          <a href="#">Staking</a>
+          <Link onClick={() => setHeader(false)} to="/staking">
+            Staking
+          </Link>
           <div className="social-div">
             <FontAwesomeIcon icon={faDiscord} />
             <FontAwesomeIcon icon={faTwitter} />
