@@ -1,10 +1,8 @@
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
 import "./StakeModal.css";
 
 const StakeModal = ({ closeModal }) => {
-  const [value, setValue] = useState(0);
   return (
     <>
       <div onClick={() => closeModal(false)} className="overlay-stake"></div>
