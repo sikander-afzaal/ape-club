@@ -114,6 +114,7 @@
   .roadmap {
     margin-top: 0px;
     padding-top: 80px;
+    background-image: none;
   }
   .roadmap-grid {
     grid-template-columns: 1fr;
