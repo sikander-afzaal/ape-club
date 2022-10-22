@@ -1,4 +1,5 @@
 import { useState } from "react";
+import StakeBox from "../../components/StakeBox/StakeBox";
 import StakeModal from "../../components/StakeModal/StakeModal";
 import "./Stake.css";
 
@@ -10,39 +11,21 @@ const Stake = () => {
       <div className="stake">
         <h1 className="titan">Stake</h1>
         <div className="stake-row">
-          {/* stake item start --------------- */}
-          <div className="stake-box">
-            <div className="top-stake-box">
-              <h2>Monkey Ape Club</h2>
-              <button className="enter" onClick={() => setOpenStakeModal(true)}>
-                Staking
-              </button>
-            </div>
-            <img src="/assets/nft.png" alt="" />
-          </div>
-          {/* stake item end --------------- */}
-          {/* stake item start --------------- */}
-          <div className="stake-box">
-            <div className="top-stake-box">
-              <h2>Monkey Ape Club</h2>
-              <button className="enter" onClick={() => setOpenStakeModal(true)}>
-                Staking
-              </button>
-            </div>
-            <img src="/assets/nft.png" alt="" />
-          </div>
-          {/* stake item end --------------- */}
-          {/* stake item start --------------- */}
-          <div className="stake-box">
-            <div className="top-stake-box">
-              <h2>Monkey Ape Club</h2>
-              <button className="enter" onClick={() => setOpenStakeModal(true)}>
-                Staking
-              </button>
-            </div>
-            <img src="/assets/nft.png" alt="" />
-          </div>
-          {/* stake item end --------------- */}
+          <StakeBox
+            bg={"rgb(73, 95, 168)"}
+            img="/assets/nft.png"
+            openModal={setOpenStakeModal}
+          />
+          <StakeBox
+            bg={"rgb(73, 95, 168)"}
+            img="/assets/nft.png"
+            openModal={setOpenStakeModal}
+          />
+          <StakeBox
+            bg={"rgb(73, 95, 168)"}
+            img="/assets/nft.png"
+            openModal={setOpenStakeModal}
+          />
         </div>
       </div>
     </div>

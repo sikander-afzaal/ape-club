@@ -1,8 +1,14 @@
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import {
+  faChevronDown,
+  faChevronUp,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 import "./StakeModal.css";
 
 const StakeModal = ({ closeModal }) => {
+  const [readMore, setReadMore] = useState(false);
   return (
     <>
       <div onClick={() => closeModal(false)} className="overlay-stake"></div>
@@ -28,27 +34,70 @@ const StakeModal = ({ closeModal }) => {
                 </div>
                 8%
               </div>
-              <div className="desc-row">
-                <div>
-                  <h3>BodyWear</h3>
-                  <p>White Tank</p>
-                </div>
-                8%
-              </div>
-              <div className="desc-row">
-                <div>
-                  <h3>Head</h3>
-                  <p>ETH</p>
-                </div>
-                8%
-              </div>
-              <div className="desc-row">
-                <div>
-                  <h3>HeadWear</h3>
-                  <p>Horns</p>
-                </div>
-                8%
-              </div>
+              {window.innerWidth > 733 ? (
+                <>
+                  <div className="desc-row">
+                    <div>
+                      <h3>BodyWear</h3>
+                      <p>White Tank</p>
+                    </div>
+                    8%
+                  </div>
+                  <div className="desc-row">
+                    <div>
+                      <h3>Head</h3>
+                      <p>ETH</p>
+                    </div>
+                    8%
+                  </div>
+                  <div className="desc-row">
+                    <div>
+                      <h3>HeadWear</h3>
+                      <p>Horns</p>
+                    </div>
+                    8%
+                  </div>
+                </>
+              ) : (
+                <>
+                  {readMore ? (
+                    <>
+                      <div className="desc-row">
+                        <div>
+                          <h3>BodyWear</h3>
+                          <p>White Tank</p>
+                        </div>
+                        8%
+                      </div>
+                      <div className="desc-row">
+                        <div>
+                          <h3>Head</h3>
+                          <p>ETH</p>
+                        </div>
+                        8%
+                      </div>
+                      <div className="desc-row">
+                        <div>
+                          <h3>HeadWear</h3>
+                          <p>Horns</p>
+                        </div>
+                        8%
+                      </div>
+                    </>
+                  ) : (
+                    ""
+                  )}
+                  <button
+                    onClick={() => setReadMore((prev) => !prev)}
+                    className="readmore"
+                  >
+                    More Details{" "}
+                    <FontAwesomeIcon
+                      icon={readMore ? faChevronUp : faChevronDown}
+                    />
+                  </button>
+                </>
+              )}
             </div>
           </div>
         </div>
