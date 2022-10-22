@@ -27,22 +27,26 @@
   padding: 20px;
   border-radius: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   width: 95%;
   max-width: 800px;
+  padding-top: 40px;
+  max-height: 90vh;
+  overflow-y: auto;
 }
 .top-modal {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   gap: 20px;
 }
 .top-modal img {
   max-width: 350px;
   object-fit: contain;
+  width: 100%;
 }
 .right-modal {
   display: flex;
@@ -58,25 +62,31 @@
 .right-modal h1 {
   font-size: 27px;
 }
-.right-modal .modal-row {
+.right-modal .nft-desc-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  margin-top: 20px;
-}
-.modal-col {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  width: 100%;
   flex-direction: column;
-  gap: 0px;
+  gap: 10px;
+  padding-bottom: 20px;
+  margin-top: 10px;
 }
-.modal-col h3 {
+.desc-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgb(73, 95, 168);
+}
+.desc-row h3 {
   font-size: 14px;
+  text-transform: uppercase;
 }
-.modal-col p {
+.desc-row p {
   font-size: 16px;
+  color: rgb(73, 95, 168);
 }
 .bottom-modal {
   display: flex;
@@ -85,29 +95,11 @@
   width: 100%;
   background-color: hsl(226, 39%, 53%);
   border-radius: 100vh;
-  padding-left: 100px;
+  padding-left: 40px;
   height: 60px;
 }
-.calc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-.calc button {
-  font-size: 20px;
-  background-color: white;
-  border: none;
-  width: 30px;
-  cursor: pointer;
-  height: 30px;
-}
-.calc p {
+.bottom-modal h2 {
   color: white;
-  font-size: 30px;
-  width: 40px;
-  font-weight: 400;
-  text-align: center;
 }
 .bottom-modal > .buy-now {
   width: 200px;
@@ -123,16 +115,31 @@
   .top-modal {
     flex-direction: column-reverse;
     align-items: center;
+    gap: 0px;
   }
   .right-modal {
-    width: auto;
+    width: 100%;
     align-items: center;
   }
   .bottom-modal {
+    height: 100px;
     padding-left: 20px;
   }
   .bottom-modal > .buy-now {
     width: 130px;
     font-size: 16px;
+    height: 70px;
+  }
+  .bottom-modal h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bottom-modal h2 {
+    font-size: 16px;
+  }
+  .bottom-modal > .buy-now {
+    height: 60px;
+    width: 100px;
   }
 }

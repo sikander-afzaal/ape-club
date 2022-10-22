@@ -13,51 +13,50 @@ const StakeModal = ({ closeModal }) => {
         <div className="top-modal">
           <img src="/assets/nft.png" alt="" />
           <div className="right-modal">
-            <h2>Raffle Coin</h2>
-            <h1>10,000 $DINO Coins</h1>
-            <div className="modal-row">
-              <div className="modal-col">
-                <h3>Ticket Price</h3>
-                <p>100</p>
+            <h2>NFT</h2>
+            <h1>Cool Ape #3730</h1>
+            <div className="nft-desc-div">
+              <div className="desc-row">
+                <div>
+                  <h3>BACKGROUND</h3>
+                  <p>Yellow</p>
+                </div>
+                8%
               </div>
-              <div className="modal-col">
-                <h3>Ends in</h3>
-                <p>2 hours</p>
+              <div className="desc-row">
+                <div>
+                  <h3>Body</h3>
+                  <p>Brown</p>
+                </div>
+                8%
+              </div>
+              <div className="desc-row">
+                <div>
+                  <h3>BodyWear</h3>
+                  <p>White Tank</p>
+                </div>
+                8%
+              </div>
+              <div className="desc-row">
+                <div>
+                  <h3>Head</h3>
+                  <p>ETH</p>
+                </div>
+                8%
+              </div>
+              <div className="desc-row">
+                <div>
+                  <h3>HeadWear</h3>
+                  <p>Horns</p>
+                </div>
+                8%
               </div>
             </div>
           </div>
         </div>
         <div className="bottom-modal">
-          <div className="calc">
-            <button
-              onClick={() => {
-                setValue((prev) => {
-                  if (prev > 0) {
-                    return (prev -= 1);
-                  } else {
-                    return prev;
-                  }
-                });
-              }}
-            >
-              -
-            </button>
-            <p className="titan">{value}</p>
-            <button
-              onClick={() => {
-                setValue((prev) => {
-                  if (prev < 10) {
-                    return (prev += 1);
-                  } else {
-                    return prev;
-                  }
-                });
-              }}
-            >
-              +
-            </button>
-          </div>
-          <button className="buy-now">Buy Now</button>
+          <h2>Claim Available Bananas</h2>
+          <button className="buy-now">285 🍌</button>
         </div>
       </div>
     </>

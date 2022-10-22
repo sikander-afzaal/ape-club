@@ -15,7 +15,7 @@ const Stake = () => {
             <div className="top-stake-box">
               <h2>Monkey Ape Club</h2>
               <button className="enter" onClick={() => setOpenStakeModal(true)}>
-                Enter
+                Staking
               </button>
             </div>
             <img src="/assets/nft.png" alt="" />
@@ -26,7 +26,7 @@ const Stake = () => {
             <div className="top-stake-box">
               <h2>Monkey Ape Club</h2>
               <button className="enter" onClick={() => setOpenStakeModal(true)}>
-                Enter
+                Staking
               </button>
             </div>
             <img src="/assets/nft.png" alt="" />
@@ -37,7 +37,7 @@ const Stake = () => {
             <div className="top-stake-box">
               <h2>Monkey Ape Club</h2>
               <button className="enter" onClick={() => setOpenStakeModal(true)}>
-                Enter
+                Staking
               </button>
             </div>
             <img src="/assets/nft.png" alt="" />
