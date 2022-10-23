@@ -8,6 +8,7 @@ const StakeBox = ({ img, bg, openModal }) => {
         </button>
       </div>
       <img src={img} alt="" />
+      <h3>23 🍌</h3>
     </div>
   );
 };
