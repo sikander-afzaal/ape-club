@@ -10,6 +10,9 @@ const Stake = () => {
       {openStakeModal && <StakeModal closeModal={setOpenStakeModal} />}
       <div className="stake">
         <h1 className="titan">Stake</h1>
+        <h2 className="claimable">
+          Claimable Bananas <span>0.00</span>
+        </h2>
         <div className="stake-row">
           <StakeBox
             bg={"rgb(73, 95, 168)"}
