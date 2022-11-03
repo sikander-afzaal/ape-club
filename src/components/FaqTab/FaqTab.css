@@ -16,6 +16,7 @@
   color: #363636;
   padding: 18px 0;
   cursor: pointer;
+  gap: 20px;
 }
 .faq-btn h2 {
   user-select: none;
@@ -29,9 +30,12 @@
 }
 .faq-answer {
   max-height: 0px;
+  text-align: left;
   transition: all 0.7s ease-in-out;
+  width: 100%;
 }
 .faq-answer p {
+  text-align: left;
   padding-bottom: 18px;
   font-size: 14px;
   color: #363636;
@@ -41,7 +45,7 @@
   color: #6e6e6e;
 }
 .active-answer {
-  max-height: 2000px;
+  max-height: 6000px;
 }
 @media screen and (max-width: 500px) {
   .faq-btn h2 {

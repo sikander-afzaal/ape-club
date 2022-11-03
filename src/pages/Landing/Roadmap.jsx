@@ -10,45 +10,22 @@ const Roadmap = () => {
           <img src="/assets/star.png" alt="" />
         </div>
         <div className="road-item">
-          <h2 className="titan">Phase One: The Ressurection</h2>
+          <h2 className="titan">New Website/ Staking</h2>
           <ul>
             <li>
-              A detailed roadmap for the future of the Cool Ape Club will be
-              released
-            </li>
-            <li>
-              A new team with experienced and passionate members will be formed
-              to help the success of the project to the fullest extent
-            </li>
-            <li>
-              Community outreach events will be planned and carried out (Twitter
-              contests, Discord Contests, etc.).
-            </li>
-            <li>
-              Update Twitter, Discord, and our website to ensure a new rebranded
-              look.
-            </li>
-            <li>
-              An Official Alpha Group will be created to provide our members
-              with the highest chance of successful trades within the NFT and
-              Crypto marketplaces.
+              We plan to deploy a new front end/ website allowing our holders to
+              access their NFT and Bananas!
             </li>
           </ul>
         </div>
-        <div className="road-item">
-          <h2 className="titan">Phase Two: Ape’s Together – Ape’s Strong</h2>
-          <ul className="right">
+        <div className="road-item right">
+          <h2 className="titan">Weekly Events!</h2>
+          <ul>
             <li>
-              Collaborations and partnerships will be established to provide our
-              members with various opportunities such as upcoming whitelist
-              spots, giveaways, and more
+              The Cool Ape Club will be hosting a variety of events weekly!
+              Ranging from Twitter Spaces, Game Knights, Giveaways, Collabs &
+              more!
             </li>
-            <li>
-              A community wallet will be created. This wallet will be devoted to
-              giving the community a lifeline of Eth and NFTs to give back to
-              the community via marketing, promotion, giveaways, and more.
-            </li>
-            <li>A fundraising plan will be announced.</li>
           </ul>
         </div>
         <div className="star-wrapper">
@@ -60,23 +37,40 @@ const Roadmap = () => {
           <img src="/assets/star.png" alt="" />
         </div>
         <div className="road-item">
-          <h2 className="titan">Phase Three: The Future</h2>
+          <h2 className="titan">Implement Bananas Economy/ Marketplace</h2>
           <ul>
             <li>
-              A more detailed plan regarding the status of The Capeverse and
-              further project utilities will be laid out and announced.
-            </li>
-            <li>
-              An updated roadmap detailing the future of the Cool Ape Club's
-              plan to success will be announced.
+              Building out our Bananas contract! Our goal is to have every C.A.C
+              holder earn passively for every ape in their wallet. Following a
+              successful contract we will release an on-site Marketplace! This
+              Market will allow holders to purchase Discounted NFTs, Enter
+              Raffles, Vote on Charity all just for being a member!
             </li>
           </ul>
         </div>
+
+        <div className="road-item right">
+          <h2 className="titan">Building C.A.C Universe</h2>
+          <ul>
+            <li>
+              Building C.A.C Universe will be done by implementing various C.A.C
+              NFTs into our new Ape Shorts/ TikToks! Our plan is to build a cast
+              of sorts, allowing for various plots and story telling! We will
+              gladly feature holder apes, future collaborators & more!
+            </li>
+          </ul>
+        </div>
+        <div className="star-wrapper last-star">
+          <img src="/assets/star.png" alt="" />
+        </div>
       </div>
       <div className="road-item center-item">
-        <h2>Ongoing</h2>
-        <p>Phase One: The Resurrection</p>
-        <p> Collaborations with various projects in the NFT Space</p>
+        <h2>Mystical Wizard Event</h2>
+        <p>
+          There’s a rumor in the Jungle, a Mystical Wizard exists deep within
+          the banana trees hidden from all other apes! The legend says he can
+          turn bananas gold, or even the trees themselves!
+        </p>
       </div>
     </>
   );

@@ -9,7 +9,7 @@ const Hero = () => {
         WELCOME TO <br /> THE JUNGLE
       </h1>
       <p className="titan">Are you ready to go bananaz?</p>
-      <button className="buy">Buy on OS</button>
+      <button className="buy">Buy on OpenSea</button>
       <Splide
         options={{
           perPage: 4,
