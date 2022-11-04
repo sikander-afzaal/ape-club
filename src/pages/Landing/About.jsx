@@ -33,7 +33,7 @@ const About = () => {
         <img className="monkey-about" src="/assets/about-img1.png" alt="" />
       </div>
       <div className="about-row">
-        <img src="/assets/about-img2.png" alt="" />
+        <img src="/assets/care.png" className="care" alt="" />
         <div className="left-about-row">
           <h3 className="titan">Organic Non GMO $Bananaz</h3>
           <p>

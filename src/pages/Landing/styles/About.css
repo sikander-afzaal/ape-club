@@ -63,6 +63,11 @@
 .about .about-row:last-child {
   margin-top: 80px;
 }
+.care {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
 @media screen and (max-width: 981px) {
   .about-row {
     flex-direction: column-reverse;
@@ -72,6 +77,9 @@
   .about-row > img {
     max-width: 100%;
     object-fit: contain;
+  }
+  .care {
+    height: auto;
   }
 }
 @media screen and (max-width: 720px) {
@@ -86,5 +94,8 @@
   }
   .left-about-row h3 {
     font-size: 30px;
+  }
+  .about {
+    margin-top: -26vw;
   }
 }

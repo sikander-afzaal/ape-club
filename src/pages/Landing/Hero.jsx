@@ -21,10 +21,10 @@ const Hero = () => {
           perMove: 1,
           type: "loop",
           breakpoints: {
-            1383: {
+            1661: {
               perPage: 3,
             },
-            1069: {
+            1200: {
               perPage: 2,
             },
             750: {
@@ -34,16 +34,19 @@ const Hero = () => {
         }}
       >
         <SplideSlide>
-          <img src="/assets/nft.png" alt="" className="nft" />
+          <img src="/assets/nft1.png" alt="" className="nft" />
         </SplideSlide>
         <SplideSlide>
-          <img src="/assets/nft.png" alt="" className="nft" />
+          <img src="/assets/nft2.png" alt="" className="nft" />
         </SplideSlide>
         <SplideSlide>
-          <img src="/assets/nft.png" alt="" className="nft" />
+          <img src="/assets/nft3.png" alt="" className="nft" />
         </SplideSlide>
         <SplideSlide>
-          <img src="/assets/nft.png" alt="" className="nft" />
+          <img src="/assets/nft4.png" alt="" className="nft" />
+        </SplideSlide>
+        <SplideSlide>
+          <img src="/assets/nft5.png" alt="" className="nft" />
         </SplideSlide>
       </Splide>
       {/* <img src="/assets/wave.svg" alt="" className="wave" /> */}
