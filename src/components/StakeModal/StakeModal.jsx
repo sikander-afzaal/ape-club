@@ -35,27 +35,7 @@ const StakeModal = ({ closeModal }) => {
                 </div>
                 8%
               </div>
-              <div className="desc-row">
-                <div>
-                  <h3>Head</h3>
-                  <p>ETH</p>
-                </div>
-                8%
-              </div>
-              <div className="desc-row">
-                <div>
-                  <h3>HeadWear</h3>
-                  <p>Horns</p>
-                </div>
-                8%
-              </div>
-              <div className="desc-row">
-                <div>
-                  <h3>BodyWear</h3>
-                  <p>White Tank</p>
-                </div>
-                8%
-              </div>
+
               <div className="desc-row">
                 <div>
                   <h3>Head</h3>
