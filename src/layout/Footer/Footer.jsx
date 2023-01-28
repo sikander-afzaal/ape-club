@@ -19,14 +19,20 @@ const Footer = () => {
       <footer>
         <h1 className="titan">© 2021 CoolApeClub</h1>
         <div className="social-div">
-          <a href="#">
-            <FontAwesomeIcon icon={faInstagram} />
+          <a href="https://discord.com/invite/jj9HrGH2a6" target={"blank"}>
+            <FontAwesomeIcon icon={faDiscord} />
           </a>
-          <a href="#">
+          <a
+            href="https://twitter.com/CoolApeClub?s=20&t=9MU2mKp9BBR1-W0jokeOvQ"
+            target={"blank"}
+          >
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="#">
-            <FontAwesomeIcon icon={faDiscord} />
+          <a
+            href="https://www.instagram.com/thecoolapeclub/?igshid=YmMyMTA2M2Y%3D"
+            target={"blank"}
+          >
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
       </footer>

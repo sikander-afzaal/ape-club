@@ -28,10 +28,15 @@ nav a {
   font-size: 18px;
   text-decoration: none;
 }
-.social-div svg {
-  height: 1.5rem;
-  width: 1.5rem;
+.social-div a {
   color: #363636;
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+}
+.social-div svg {
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+  color: #363636 !important;
 }
 .connect {
   border: 2px solid rgb(147 197 253);

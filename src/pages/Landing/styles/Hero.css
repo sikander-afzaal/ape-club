@@ -9,8 +9,10 @@
   background: url("/public/assets/hero.png") repeat 0 0;
   gap: 30px;
   background-position: 0 0;
+  background-repeat: repeat;
   animation: animate 65s linear infinite;
   position: relative;
+  background-size: cover;
   isolation: isolate;
 }
 @keyframes animate {
