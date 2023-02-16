@@ -51,6 +51,9 @@
   height: 44px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
 }
 .buy:hover {
   background-color: rgb(147 197 253);

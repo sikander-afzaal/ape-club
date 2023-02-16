@@ -9,7 +9,13 @@ const Hero = () => {
         WELCOME TO <br /> THE JUNGLE
       </h1>
       <p className="titan">Are you ready to go bananaz?</p>
-      <button className="buy">Buy on OpenSea</button>
+      <a
+        href="https://opensea.io/collection/coolapeclubofficial"
+        target={"blank"}
+        className="buy"
+      >
+        Buy on OpenSea
+      </a>
       <Splide
         options={{
           perPage: 4,

@@ -31,7 +31,7 @@ const Header = () => {
             Staking
           </Link>
           <div className="social-div">
-            <a href="https://discord.com/invite/jj9HrGH2a6" target={"blank"}>
+            <a href="https://discord.com/invite/KKuhkCuD7J" target={"blank"}>
               <FontAwesomeIcon icon={faDiscord} />
             </a>
             <a
