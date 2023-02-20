@@ -16,7 +16,7 @@ const Verse = () => {
             We will be bringing awareness to these causes as well as donating a
             pledged portion of CAC profits to them!
           </p>
-          <button className="connect">Mint Now</button>
+          <button className="connect">Coming Soon</button>
         </div>
       </div>
     </div>
