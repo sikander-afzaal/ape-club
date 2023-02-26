@@ -3,7 +3,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 76px;
+  height: 70px;
   max-width: 1152px;
   padding-inline: 20px;
 }
@@ -22,4 +22,9 @@ footer h1 {
 }
 .social-div a svg {
   color: white;
+}
+.foot-cont > p {
+  color: white;
+  font-size: 14px;
+  padding-bottom: 10px;
 }

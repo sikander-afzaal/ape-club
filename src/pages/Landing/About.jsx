@@ -28,7 +28,13 @@ const About = () => {
             the onsite marketplace or vote on their favorite “Cool To Care”
             charity’s!
           </p>
-          <button className="connect">Join Discord</button>
+          <a
+            href="https://discord.com/invite/KKuhkCuD7J"
+            target={"blank"}
+            className="connect"
+          >
+            Join Discord
+          </a>
         </div>
         <img className="monkey-about" src="/assets/about-img1.png" alt="" />
       </div>

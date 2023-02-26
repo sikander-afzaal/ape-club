@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   return (
     <div
-      className="container"
+      className="foot-cont container"
       style={{
         backgroundColor: "rgb(73, 95, 168)",
         position: "relative",
@@ -36,6 +36,7 @@ const Footer = () => {
           </a>
         </div>
       </footer>
+      <p>2021 Cool Ape Club”to 2023</p>
     </div>
   );
 };
